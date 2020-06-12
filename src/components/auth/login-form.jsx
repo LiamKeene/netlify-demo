@@ -44,6 +44,7 @@ export default function LoginForm(props) {
             disabled={props.loading}
             fullWidth
             onClick={onSubmit}
+            size="large"
             type="submit"
             variant="contained"
           >
