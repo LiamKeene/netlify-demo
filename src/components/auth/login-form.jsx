@@ -40,7 +40,7 @@ export default function LoginForm(props) {
             variant="outlined"
           />
           <Button
-            color="primary"
+            color="secondary"
             disabled={props.loading}
             fullWidth
             onClick={onSubmit}
